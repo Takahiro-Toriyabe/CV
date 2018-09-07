@@ -1,0 +1,212 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 1.0 (10/6/2012)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important:
+% This template needs to be compiled using XeLaTeX
+%
+% Note: this template has the option to use the Hoefler Text font, see the
+% font configurations section below for instructions on using this font
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{article} % Document font size and paper size
+
+\usepackage{fontspec} % Allows the use of OpenType fonts
+
+\usepackage{geometry} % Allows the configuration of document margins
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+\setlength\parindent{0in} % Remove paragraph indentation
+
+\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+\usepackage[normalem]{ulem} % Custom underlining
+%\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
+\reversemarginpar
+
+\usepackage{comment} % Comment out some lines
+
+%\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Takahiro Toriyabe - vita},pdfauthor={Takahiro Toriyabe }]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+%\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} % Link colors
+
+%----------------------------------------------------------------------------------------
+%	FONT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% Two font choices are available in this template, the default is Linux Libertine, available for free at: http://www.linuxlibertine.org while the secondary choice is Hoefler Text which comes bundled with Mac OSX.
+% To use Hoefler Text, comment out the Linux Libertine block below and uncomment the Hoefler Text block. You will also need to replace the "\&" characters with "\amper{}" in section titles.
+
+% Linux Libertine Font (default)
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+%\sectionfont{\mdseries\upshape\Large} % Set font options for sections
+%\subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\mdseries\upshape\large} % Set font options for subsubsections
+%\chardef\&="E050 % Custom ampersand character
+
+% Hoefler Text Font (bundled with Mac OSX)
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+%\setsansfont[Scale=0.9]{Optima Regular} % Set sans font, used in the main name and titles in the document
+%\newcommand{\amper}{{\fontspec[Scale=.95]{Hoefler Text}\selectfont\itshape\&}} % Custom ampersand character
+%\sectionfont{\sffamily\mdseries\large\underline} % Set font options for sections
+%\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+
+% Original font set based on Linux Libertine Font
+\setromanfont [Ligatures={Common}, Variant=01]{Linux Libertine O} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+\sectionfont{\bfseries\upshape\Large} % Set font options for sections
+\subsectionfont{\bfseries\scshape\large} % Set font options for subsections
+\subsubsectionfont{\bfseries\upshape\large} % Set font options for subsubsections
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\LARGE Takahiro Toriyabe}\\[1cm] % Your name
+Graduate School of Economics, The University of Tokyo\\ % Your address
+Hongo 7-3-1, Bunkyo-ku\\
+Tokyo \texttt{113-0033}
+Japan\\[.2cm]
+%Phone: \texttt{609-734-8000}\\ % Your phone number
+%Fax: \texttt{609-924-8399}\\[.2cm] % Your fax number
+Email: ttoriyabe@g.ecc.utokyo.ac.jp\\ % Your email address
+%\textsc{url}: \href{http://www.ias.edu/spfeatures/einstein/}{http://www.ias.edu/spfeatures/einstein/}\\ % Your academic/personal website
+
+%\vfill % Whitespace between contact information and specific CV information
+
+%------------------------------------------------
+
+Born: July 15, 1993---Tokyo, Japan\\ % Your date of birth
+Nationality: Japanese\\ % Your nationality
+Language: Japanese (Native), English (Fluent)
+
+%------------------------------------------------
+
+\section*{Current Position}
+
+\emph{Ph.D Student}, Graduate School of Economics, The University of Tokyo\\
+\emph{Research Fellow}, The Japan Society for the Promotion of Science
+
+%------------------------------------------------
+
+\section*{Research fields}
+
+Labor Economics, Family Economics, Applied Econometrics, National Transfer Accounts. % Your primary areas of research interest
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Education}
+
+\years{2018}\textsc{MA} in Economics, Graduate School of Economics, The University of Tokyo\\
+\years{2016}\textsc{BA} in Economics, Hitotsubashi University
+
+%----------------------------------------------------------------------------------------
+%	GRANTS, HONORS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Grants, Honors \& Awards}
+
+\subsection*{Grants}
+
+\years{2018--2020} Research Fellow of the Japan Society for the Promotion of Science (DC1)
+
+\subsection*{Honor \& Awards}
+
+\years{2017}Best Paper Award, 12th Applied Econometrics Conference, Hitotsubashi University\\
+\years{2016}Best Poster Award, 19th Labor Economics Conference, Osaka University\\
+\years{2015}Excellent Students Award, Hitotsubashi University\\
+\years{2014}Excellent Students Award, Hitotsubashi University
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS AND TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Publications}
+
+%\subsection*{Journal Articles}
+
+%\years{1901}Einstein, Albert (1901), “Folgerungen aus den Capillaritätserscheinungen (Conclusions Drawn from the Phenomena of Capillarity)", \emph{Annalen der Physik} 4: 513
+
+%------------------------------------------------
+
+%\subsection*{Books}
+
+%\years{1954}Einstein, Albert (1954), \emph{Ideas and Opinions}, New York: Random House, ISBN 0-517-00393-7
+
+%-----------------------------------------------
+
+\subsection*{Working paper}
+
+\years{2018} ``Parental Leaves and Female Skill Utilization: Evidence from PIAAC,'' \textit{RIETI Discussion Paper}, 18-E-003, Co-author: Daiji Kawaguchi
+
+
+%------------------------------------------------
+
+\subsection*{Work in Progress}
+
+\years{} ``Empowerment Effects and Intertemporal Commitment of Married Couples: Evidence from Japanese Pension Reform''\\
+\years{} ``Does a generous parental leave policy suppress career advancement of skilled women?'' Co-author: Daiji Kawaguchi
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Teaching}
+
+\years{2018--2019} Teaching assistant of Econometrics, Graduate School of Public Policy, The University of Tokyo, Japan\\
+\years{2017--2018} Teaching assistant of Econometrics II, Graduate School of Economics, The University of Tokyo\\
+\years{2017} Teaching assistant of Econometrics, Graduate School of Public Policy, The University of Tokyo\\
+\years{2017} Math Camp, Graduate School of Economics, The University of Tokyo\\
+\years{2015} Teaching assistant of Labor Economics, Hitotsubashi University
+
+%------------------------------------------------
+
+%\section*{Service to the profession}
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+{\scriptsize Last updated: \today} % Any final footer text such as a URL to the latest version of your CV, last updated date, compiled in XeTeX, etc
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
