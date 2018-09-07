@@ -1,0 +1,5 @@
+# Ignore the following files in CV
+CV/*.aux
+CV/*.log
+CV/*.gz
+
